@@ -1,4 +1,4 @@
-import 'package:currency_converter_app/functions/fetchrates.dart';
+import 'package:open_exchange_app/functions/fetchrates.dart';
 import 'package:flutter/material.dart';
 
 class UsdToAny extends StatefulWidget {

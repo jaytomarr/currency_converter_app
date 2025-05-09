@@ -1,6 +1,6 @@
-import 'package:currency_converter_app/models/allcurrencies.dart';
-import 'package:currency_converter_app/models/currencyrates.dart';
-import 'package:currency_converter_app/utils/key.dart';
+import 'package:open_exchange_app/models/allcurrencies.dart';
+import 'package:open_exchange_app/models/currencyrates.dart';
+import 'package:open_exchange_app/utils/key.dart';
 import 'package:http/http.dart' as http;
 
 Future<CurrencyRates> fetchrates() async {

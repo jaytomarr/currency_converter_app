@@ -1,7 +1,7 @@
-import 'package:currency_converter_app/components/anyToAny.dart';
-import 'package:currency_converter_app/components/usdToAny.dart';
-import 'package:currency_converter_app/functions/fetchrates.dart';
-import 'package:currency_converter_app/models/currencyrates.dart';
+import 'package:open_exchange_app/components/anyToAny.dart';
+import 'package:open_exchange_app/components/usdToAny.dart';
+import 'package:open_exchange_app/functions/fetchrates.dart';
+import 'package:open_exchange_app/models/currencyrates.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           title: Center(
             child: Text(
-              'Open Exchange App',
+              'Open Exchange',
               style:
                   TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
             ),

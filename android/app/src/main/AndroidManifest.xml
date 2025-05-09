@@ -1,6 +1,8 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jtmr.open_exchange_app">
     <application
-        android:label="currency_converter_app"
+        android:label="open_exchange_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
